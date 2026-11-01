@@ -1,0 +1,25 @@
+========================================
+  PC Optimizer Pro v1.1.0
+========================================
+
+PENGGUNA AKHIR (hasil build)
+----------------------------
+• PCOptimizerPro-Setup-1.1.0.exe  → installer
+• PCOptimizerPro-Portable.exe     → tanpa install
+
+Klik kanan → Run as administrator (disarankan).
+
+DEVELOPER / BUILD
+-----------------
+1. npm install
+2. build-exe.bat
+3. Hasil di folder release\
+
+Jika hanya muncul win-unpacked:
+  jalankan LANJUTKAN-PACK.bat
+
+MODE SOURCE (tanpa exe)
+------------------------
+install.bat → start-admin.bat → http://localhost:3000
+
+Dokumentasi lengkap: README.md (GitHub)
