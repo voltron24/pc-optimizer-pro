@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+release/
+out/
+build/Release/
+
+# Electron
+*.asar
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & local data
+*.log
+npm-debug.log*
+data/
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# TypeScript / tooling
+*.tsbuildinfo
+
+# Test / coverage
+coverage/
+
+# Optional local installer artifacts
+dist-installer/*.exe
